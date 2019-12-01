@@ -1,8 +1,19 @@
 {
   "name": "parallelizer",
   "version": "0.0.0",
-  "description": "",
-  "keywords": [],
+  "description": "Promise-based workers for browsers",
+  "keywords": [
+    "worker",
+    "workers",
+    "webworker",
+    "webworkers",
+    "thread",
+    "threads",
+    "multithreading",
+    "promise",
+    "browser",
+    "typescript"
+  ],
   "main": "dist/parallelizer.umd.js",
   "module": "dist/parallelizer.es5.js",
   "typings": "dist/types/parallelizer.d.ts",
@@ -12,8 +23,12 @@
   "author": "branchard <benoit.branchard@gmail.com>",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/branchard/parallelizer.git"
   },
+  "bugs": {
+    "url": "https://github.com/branchard/parallelizer/issues"
+  },
+  "homepage": "https://github.com/branchard/parallelizer#readme",
   "license": "MIT",
   "engines": {
     "node": ">=6.0.0"
